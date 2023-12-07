@@ -1,0 +1,123 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vert_nav_bar_overall {
+    width: 100%;
+    height: 100vh;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.vert_nav_logo_and_link_wrapper {
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-right: 10px solid #ff0000;
+    box-shadow: 0px 3px 7px #555;
+
+}
+
+.vert_nav_logo_container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.vert_nav_logo_container img {
+    width: 65%;
+    cursor: pointer;
+
+}
+
+
+.vert_nav_link_container {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.vert_nav_link_container ul li {
+    list-style: none; 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff000;
+    text-align: center;
+    transition: .5s;
+   
+}
+
+.vert_nav_link_container ul li:hover {
+    border-bottom: 2px solid #ff0000;
+}
+
+.vert_nav_link_container ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    display: block;
+    transition: .5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.vert_nav_link_container ul li a:hover {
+    
+    color: #ff0000;   
+
+}
+
+.social_link_container {
+    width: 100%;
+}
+
+.social_link_container p {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.social_links_brands {
+    width: 100%;
+    text-align: center;
+        
+    
+}
+
+
+.fa-brands  {
+    
+    color: #ff0000;
+    font-size: 24px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-brands:hover {
+    color: #fff000;
+}
+
+.copyright_container {
+    width: 100%;
+    
+}
+
+.copyright_container p {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
